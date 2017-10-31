@@ -8,13 +8,8 @@
 
 import Foundation
 import UIKit
-//
-//  TableViewController.swift
-//  DNF
-//
-//  Created by Jack Livingston on 10/28/17.
-//  Copyright © 2017 CS110. All rights reserved.
-//
+
+
 var restaurants = ["McDonalds", "Panda Express", "Cafe Edens","The Loop", "Twinnies", "Au Bon Pain"]
 
 var restaurantDescriptions = ["McDonalds Description and other information we will add", "Panda Express", "Cafe Edens","The Loop", "Twinnies", "Au Bon Pain"]
