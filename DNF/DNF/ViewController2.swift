@@ -21,9 +21,9 @@ class ViewController2: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        titleLabel.text = exercises[myIndex]
-        descLabel.text = exerciseDescriptions[myIndex]
-        //theImage.image = UIImage(named: restaurants[myIndex])
+        titleLabel.text = exercises[myIndex2]
+        descLabel.text = exerciseDescriptions[myIndex2]
+        //theImage.image = UIImage(named: restaurants[myIndex2])
     }
     
     override func didReceiveMemoryWarning() {

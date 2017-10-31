@@ -28,9 +28,6 @@
                                 <rect key="frame" x="16" y="20" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="tJC-VF-lVT" kind="show" id="NHt-Kb-njR"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Description" lineBreakMode="wordWrap" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c0l-gn-620">
                                 <rect key="frame" x="80" y="398" width="226" height="202"/>
@@ -55,7 +52,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m7X-qU-44T" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1255" y="-1290"/>
+            <point key="canvasLocation" x="1318" y="-734"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="2Hp-Xe-wAc">
@@ -102,6 +99,22 @@
                                     <segue destination="o5z-FS-tCI" kind="show" id="fmI-hW-Szj"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="55X-SQ-Br7">
+                                <rect key="frame" x="143" y="482" width="88" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Food History"/>
+                                <connections>
+                                    <segue destination="UWs-gZ-d0l" kind="show" id="ZbP-E5-hqc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T7n-Ze-frM">
+                                <rect key="frame" x="126" y="125" width="139" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Exercise History"/>
+                                <connections>
+                                    <segue destination="9KN-hx-8Hw" kind="show" id="ek7-gd-WHR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="R4p-4e-L6x"/>
@@ -110,6 +123,68 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gh0-26-9Xb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-634.39999999999998" y="-2225.0374812593705"/>
+        </scene>
+        <!--Exercise History View-->
+        <scene sceneID="CAW-qq-xU0">
+            <objects>
+                <viewController id="bIX-MJ-kZ9" customClass="ExerciseHistoryView" customModule="DNF" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZK8-GK-fW8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Exercise History" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Md7-U3-MWb">
+                                <rect key="frame" x="126" y="64" width="123" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="KcZ-Ev-MeE"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="YS3-Ap-T4a">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="4cz-xX-uBg">
+                            <connections>
+                                <segue destination="AUy-GU-pMd" kind="show" id="Acy-2A-aBY"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mnp-uJ-Agl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1104.8" y="-2384.257871064468"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fS7-gJ-lAg">
+            <objects>
+                <viewController id="O2O-2c-VVy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hYg-Pw-jDf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Food History" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tfk-pa-0j6">
+                                <rect key="frame" x="138" y="64" width="98" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Cbz-d2-wn4"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Q5d-Bx-GZ1">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="lBC-CX-hrQ">
+                            <connections>
+                                <segue destination="AUy-GU-pMd" kind="show" id="WXo-ha-gY7"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zwZ-UT-JUX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1105" y="-1693"/>
         </scene>
         <!--Table View Controller2-->
         <scene sceneID="OHM-3w-8r3">
@@ -135,7 +210,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="xcq-z0-28a">
-                        <barButtonItem key="leftBarButtonItem" title="Home" id="nBA-Re-kv3">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="nBA-Re-kv3">
                             <connections>
                                 <segue destination="AUy-GU-pMd" kind="show" id="vLV-DF-rFY"/>
                             </connections>
@@ -147,7 +222,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zWc-xN-iV5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="612" y="-3054.4227886056974"/>
+            <point key="canvasLocation" x="364" y="-3521"/>
         </scene>
         <!--View Controller2-->
         <scene sceneID="PVv-Lo-yVE">
@@ -162,14 +237,14 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NTG-A4-TVc">
-                                <rect key="frame" x="127" y="486" width="120" height="21"/>
+                                <rect key="frame" x="127" y="134" width="120" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CXN-Km-ZnX">
-                                <rect key="frame" x="127" y="184" width="81" height="21"/>
+                                <rect key="frame" x="127" y="481" width="133" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -187,7 +262,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1eQ-4k-bHS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1476" y="-3054.4227886056974"/>
+            <point key="canvasLocation" x="1319" y="-3521"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="P6c-7H-WGv">
@@ -213,7 +288,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="spt-0r-JcG">
-                        <barButtonItem key="leftBarButtonItem" title="Home" id="6Hb-Cs-lmy">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="6Hb-Cs-lmy">
                             <connections>
                                 <segue destination="AUy-GU-pMd" kind="show" id="ZP9-s1-zyu"/>
                             </connections>
@@ -225,7 +300,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h7J-kH-02R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="217" y="-1337"/>
+            <point key="canvasLocation" x="364" y="-734"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="c7E-t7-Q2A">
@@ -243,7 +318,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WcM-ho-mrk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-634" y="-1337"/>
+            <point key="canvasLocation" x="-634" y="-734"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="fNX-UO-cxn">
@@ -261,11 +336,46 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6RV-dr-8ql" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-572" y="-3054"/>
+            <point key="canvasLocation" x="-634" y="-3521"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="l6l-3u-wny">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9KN-hx-8Hw" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Utl-aN-Zr5">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="bIX-MJ-kZ9" kind="relationship" relationship="rootViewController" id="FRk-Zh-RCy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="38t-lE-fZm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="364" y="-2384"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="uAa-lU-0aD">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UWs-gZ-d0l" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wN9-1e-CJd">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="O2O-2c-VVy" kind="relationship" relationship="rootViewController" id="Vwq-3o-eKb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4hQ-df-dTF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="364" y="-1693"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="XAk-6N-QNb"/>
-        <segue reference="vLV-DF-rFY"/>
+        <segue reference="WXo-ha-gY7"/>
     </inferredMetricsTieBreakers>
 </document>
