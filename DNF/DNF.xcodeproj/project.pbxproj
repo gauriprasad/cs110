@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		576A14591FA81C37008558DB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576A14581FA81C37008558DB /* HomeViewController.swift */; };
 		576AD4CE1FA4F66400010CFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576AD4CD1FA4F66400010CFA /* AppDelegate.swift */; };
 		576AD4D01FA4F66400010CFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576AD4CF1FA4F66400010CFA /* ViewController.swift */; };
 		576AD4D31FA4F66400010CFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 576AD4D11FA4F66400010CFA /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		576A14581FA81C37008558DB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		576AD4CA1FA4F66400010CFA /* DNF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DNF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		576AD4CD1FA4F66400010CFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		576AD4CF1FA4F66400010CFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			children = (
 				576AD4CD1FA4F66400010CFA /* AppDelegate.swift */,
 				576AD4D11FA4F66400010CFA /* Main.storyboard */,
+				576A14581FA81C37008558DB /* HomeViewController.swift */,
 				576AD4CF1FA4F66400010CFA /* ViewController.swift */,
 				57D0D5431FA506B000FCE87A /* TableViewController.swift */,
 				576AD4D41FA4F66400010CFA /* Assets.xcassets */,
@@ -265,6 +268,7 @@
 				576AD4D01FA4F66400010CFA /* ViewController.swift in Sources */,
 				57D0D5441FA506B000FCE87A /* TableViewController.swift in Sources */,
 				576AD4CE1FA4F66400010CFA /* AppDelegate.swift in Sources */,
+				576A14591FA81C37008558DB /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
