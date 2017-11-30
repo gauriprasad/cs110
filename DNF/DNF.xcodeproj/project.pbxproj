@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2D72E3AAAF4147691F8C297C /* Pods_DNF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F3EABB5BA6292A1DA3B4C2 /* Pods_DNF.framework */; };
-		576A14591FA81C37008558DB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576A14581FA81C37008558DB /* HomeViewController.swift */; };
 		576A14611FA82C21008558DB /* FoodHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576A14601FA82C21008558DB /* FoodHistoryView.swift */; };
 		576AD4CE1FA4F66400010CFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576AD4CD1FA4F66400010CFA /* AppDelegate.swift */; };
 		576AD4D01FA4F66400010CFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576AD4CF1FA4F66400010CFA /* ViewController.swift */; };
@@ -16,6 +15,8 @@
 		576AD4D51FA4F66400010CFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 576AD4D41FA4F66400010CFA /* Assets.xcassets */; };
 		576AD4E31FA4F66400010CFA /* DNFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576AD4E21FA4F66400010CFA /* DNFTests.swift */; };
 		576AD4EE1FA4F66400010CFA /* DNFUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576AD4ED1FA4F66400010CFA /* DNFUITests.swift */; };
+		57B4CED21FD09A1900D71B10 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B4CED11FD09A1900D71B10 /* WebViewController.swift */; };
+		57B4CED41FD09A9000D71B10 /* McDonalds.html in Resources */ = {isa = PBXBuildFile; fileRef = 57B4CED31FD09A9000D71B10 /* McDonalds.html */; };
 		57D0D5441FA506B000FCE87A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0D5431FA506B000FCE87A /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		576A14581FA81C37008558DB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		576A14601FA82C21008558DB /* FoodHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodHistoryView.swift; sourceTree = "<group>"; };
 		576AD4CA1FA4F66400010CFA /* DNF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DNF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		576AD4CD1FA4F66400010CFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +51,8 @@
 		576AD4E91FA4F66400010CFA /* DNFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DNFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		576AD4ED1FA4F66400010CFA /* DNFUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNFUITests.swift; sourceTree = "<group>"; };
 		576AD4EF1FA4F66400010CFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57B4CED11FD09A1900D71B10 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		57B4CED31FD09A9000D71B10 /* McDonalds.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = McDonalds.html; sourceTree = "<group>"; };
 		57D0D5431FA506B000FCE87A /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		BC6223DFC1E64A5CD1482E0D /* Pods-DNF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNF.release.xcconfig"; path = "Pods/Target Support Files/Pods-DNF/Pods-DNF.release.xcconfig"; sourceTree = "<group>"; };
 		D0F3EABB5BA6292A1DA3B4C2 /* Pods_DNF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DNF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,12 +121,13 @@
 			children = (
 				576AD4CD1FA4F66400010CFA /* AppDelegate.swift */,
 				576AD4D11FA4F66400010CFA /* Main.storyboard */,
-				576A14581FA81C37008558DB /* HomeViewController.swift */,
 				576AD4CF1FA4F66400010CFA /* ViewController.swift */,
 				57D0D5431FA506B000FCE87A /* TableViewController.swift */,
 				576A14601FA82C21008558DB /* FoodHistoryView.swift */,
+				57B4CED11FD09A1900D71B10 /* WebViewController.swift */,
 				576AD4D41FA4F66400010CFA /* Assets.xcassets */,
 				576AD4D91FA4F66400010CFA /* Info.plist */,
+				57B4CED31FD09A9000D71B10 /* McDonalds.html */,
 			);
 			path = DNF;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				576AD4D51FA4F66400010CFA /* Assets.xcassets in Resources */,
+				57B4CED41FD09A9000D71B10 /* McDonalds.html in Resources */,
 				576AD4D31FA4F66400010CFA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,8 +352,8 @@
 				576AD4D01FA4F66400010CFA /* ViewController.swift in Sources */,
 				57D0D5441FA506B000FCE87A /* TableViewController.swift in Sources */,
 				576AD4CE1FA4F66400010CFA /* AppDelegate.swift in Sources */,
+				57B4CED21FD09A1900D71B10 /* WebViewController.swift in Sources */,
 				576A14611FA82C21008558DB /* FoodHistoryView.swift in Sources */,
-				576A14591FA81C37008558DB /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
