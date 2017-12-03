@@ -87,67 +87,6 @@
             </objects>
             <point key="canvasLocation" x="2197.5999999999999" y="-705.69715142428788"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="fS7-gJ-lAg">
-            <objects>
-                <viewController id="O2O-2c-VVy" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="hYg-Pw-jDf">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Food History" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tfk-pa-0j6">
-                                <rect key="frame" x="138" y="64" width="98" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="Cbz-d2-wn4"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="Q5d-Bx-GZ1">
-                        <barButtonItem key="leftBarButtonItem" title="Back" id="lBC-CX-hrQ"/>
-                    </navigationItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zwZ-UT-JUX" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1105" y="-1693"/>
-        </scene>
-        <!--Table View Controller-->
-        <scene sceneID="P6c-7H-WGv">
-            <objects>
-                <tableViewController id="Ygv-6P-ZrZ" customClass="TableViewController" customModule="DNF" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="z9v-4r-2pX">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" id="JbF-lV-tSB">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="JbF-lV-tSB" id="KPQ-j2-tfE">
-                                    <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="Ygv-6P-ZrZ" id="5A6-J1-n5Z"/>
-                            <outlet property="delegate" destination="Ygv-6P-ZrZ" id="Hig-aY-wIE"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" id="spt-0r-JcG">
-                        <barButtonItem key="leftBarButtonItem" id="6Hb-Cs-lmy"/>
-                    </navigationItem>
-                    <connections>
-                        <segue destination="tca-Hf-LdK" kind="show" identifier="segue" id="sR4-bW-tgM"/>
-                    </connections>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="h7J-kH-02R" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="364" y="-734"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="c7E-t7-Q2A">
             <objects>
@@ -164,66 +103,43 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WcM-ho-mrk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1906" y="-734"/>
+            <point key="canvasLocation" x="-1527" y="-706"/>
         </scene>
-        <!--View Controller-->
+        <!--Home Page-->
         <scene sceneID="5Op-q3-DPj">
             <objects>
-                <viewController id="A7R-IM-oIG" sceneMemberID="viewController">
+                <viewController id="A7R-IM-oIG" customClass="HomePage" customModule="DNF" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xz6-XT-PWh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dpz-GK-v9r">
-                                <rect key="frame" x="246" y="315" width="89" height="83"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JoM-hm-5hk">
+                                <rect key="frame" x="195" y="84" width="180" height="137"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="West"/>
-                                <connections>
-                                    <segue destination="Ygv-6P-ZrZ" kind="show" id="m2F-x4-J1a"/>
-                                </connections>
+                                <state key="normal" title="Button" image="McDonaldsbutton"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XEs-q6-Ybn">
-                                <rect key="frame" x="79" y="341" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UMU-wr-O46">
+                                <rect key="frame" x="0.0" y="20" width="188" height="187"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="East"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DLV-Ea-AvB">
-                                <rect key="frame" x="69" y="480" width="50" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Central"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WS4-BS-eN6">
-                                <rect key="frame" x="275" y="480" width="31" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="MoP"/>
+                                <state key="normal" title="Button" image="pandaFoodbutton"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="tvA-yD-AVj"/>
                     </view>
                     <navigationItem key="navigationItem" id="gRM-zx-pAH"/>
+                    <connections>
+                        <outlet property="mcDonaldsButton" destination="JoM-hm-5hk" id="IaS-FG-hho"/>
+                        <outlet property="pandaButton" destination="UMU-wr-O46" id="20N-nl-RgQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IpJ-if-0gZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-978.39999999999998" y="-1649.3253373313344"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="uAa-lU-0aD">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UWs-gZ-d0l" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wN9-1e-CJd">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="O2O-2c-VVy" kind="relationship" relationship="rootViewController" id="Vwq-3o-eKb"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4hQ-df-dTF" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="364" y="-1693"/>
+            <point key="canvasLocation" x="-637.60000000000002" y="-705.69715142428788"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="McDonaldsbutton" width="291" height="173"/>
+        <image name="pandaFoodbutton" width="317" height="136"/>
+    </resources>
 </document>

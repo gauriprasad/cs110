@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DNF/HomePage.swift"
+            timestampString = "534022575.351283"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DNF.HomePage.__deallocating_deinit"
+                  moduleName = "DNF"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jacklivingston/Desktop/cs110/DNF/DNF/HomePage.swift"
+                  timestampString = "534022575.47207"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DNF.HomePage.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; DNF.HomePage"
+                  moduleName = "DNF"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jacklivingston/Desktop/cs110/DNF/DNF/HomePage.swift"
+                  timestampString = "534022575.474697"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DNF.HomePage.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; DNF.HomePage"
+                  moduleName = "DNF"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jacklivingston/Desktop/cs110/DNF/DNF/HomePage.swift"
+                  timestampString = "534022575.477159"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "77">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DNF.HomePage.__allocating_init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;DNF.HomePage&gt;"
+                  moduleName = "DNF"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jacklivingston/Desktop/cs110/DNF/DNF/HomePage.swift"
+                  timestampString = "534022575.479622"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DNF.HomePage.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;DNF.HomePage&gt;"
+                  moduleName = "DNF"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jacklivingston/Desktop/cs110/DNF/DNF/HomePage.swift"
+                  timestampString = "534022575.482239"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "46">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
