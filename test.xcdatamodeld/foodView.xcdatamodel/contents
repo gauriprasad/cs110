@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13533" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Food" representedClassName="Food" syncable="YES" codeGenerationType="class">
+        <attribute name="cal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="carbs" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chol" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dairy" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="f_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fbr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fcal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gluten" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="protein" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sfat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sgr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sod" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tfat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="veg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vegan" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Restaurant" representedClassName="Restaurant" syncable="YES" codeGenerationType="class">
+        <attribute name="hours" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="picture" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Food" positionX="-45" positionY="0" width="128" height="330"/>
+        <element name="Restaurant" positionX="-18" positionY="162" width="128" height="120"/>
+    </elements>
+</model>
